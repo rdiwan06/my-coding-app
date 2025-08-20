@@ -22,7 +22,9 @@ The answer is stored in a variable like name
 
 print() uses that name to greet the user
 """)
-st.image("https://media.giphy.com/media/3ohzdQ1IynzclJldUQ/giphy.gif", caption="The alien wants to know your name! 👽")
+col1, col2, col3 = st.columns([1,2,1])
+with col2:
+    st.image("https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdjhtMWFnNHkxZGVsdzN4MmhieXpycXU5NDJzY200OW4xbnI3dDA4bSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/w9gOr2LDr3ylXIaKkj/giphy.gif", caption="We want to know your name! 👽", use_container_width=False)
 
 st.divider()
 
